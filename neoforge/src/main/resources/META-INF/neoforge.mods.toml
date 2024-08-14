@@ -11,7 +11,7 @@ authors = "Sherlock Luk"
 description = '''
 Make villagers leashable - rewrite of LeadTheVillagers for newer versions
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.leadthevillagers]]
 modId = "neoforge"

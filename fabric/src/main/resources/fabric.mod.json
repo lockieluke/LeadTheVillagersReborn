@@ -11,7 +11,7 @@
     "homepage": "https://lockie.dev"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/leadthevillagers/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
