@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "leadthevillagers-reborn",
+  "version": "${version}",
+  "name": "LeadTheVillagersReborn",
+  "description": "Make villagers leashable - rewrite of LeadTheVillagers for newer versions",
+  "authors": [
+    "Sherlock Luk"
+  ],
+  "contact": {
+    "homepage": "https://lockie.dev"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/leadthevillagers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.lockie.leadthevillagers.fabric.LeadTheVillagersFabric"
+    ],
+    "client": [
+      "me.lockie.leadthevillagers.fabric.client.LeadTheVillagersFabricClient"
+    ]
+  },
+  "mixins": [
+    "leadthevillagers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.6",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}
