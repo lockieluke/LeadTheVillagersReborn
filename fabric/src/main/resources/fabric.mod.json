@@ -25,10 +25,10 @@
     "leadthevillagers.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
-    "minecraft": "~1.21",
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
     "java": ">=21",
-    "architectury": ">=13.0.6",
+    "architectury": ">=15.0.2",
     "fabric-api": "*"
   },
   "suggests": {
