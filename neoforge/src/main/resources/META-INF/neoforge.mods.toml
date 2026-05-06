@@ -16,21 +16,21 @@ logoFile = "icon.png"
 [[dependencies.leadthevillagers]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21,)"
+versionRange = "[21.11,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.leadthevillagers]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21,)"
+versionRange = "[1.21.11,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.leadthevillagers]]
 modId = "architectury"
 type = "required"
-versionRange = "[13.0.6,)"
+versionRange = "[19.0.1,)"
 ordering = "AFTER"
 side = "BOTH"
 
